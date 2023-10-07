@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employeeinformation.FXMLDocumentController">
+   <children>
+      <AnchorPane fx:id="main_form" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane prefHeight="407.0" prefWidth="300.0" styleClass="left-form" stylesheets="@loginDesign.css">
+               <children>
+                  <Label layoutX="17.0" layoutY="175.0" prefHeight="32.0" prefWidth="265.0" text="Employee Magement System" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIcon fill="WHITE" glyphName="USERS" layoutX="78.0" layoutY="154.0" size="10em" />
+               </children></AnchorPane>
+            <AnchorPane layoutX="300.0" layoutY="7.0" prefHeight="400.0" prefWidth="300.0" stylesheets="@loginDesign.css">
+               <children>
+                  <Label layoutX="62.0" layoutY="59.0" prefHeight="35.0" prefWidth="175.0" stylesheets="@loginDesign.css" text="Welcome back" textFill="#256b51">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txt_username" layoutX="30.0" layoutY="136.0" prefHeight="40.0" prefWidth="237.0" promptText="Enter User Name" styleClass="textfield" stylesheets="@loginDesign.css">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <PasswordField fx:id="txt_password" layoutX="30.0" layoutY="201.0" prefHeight="40.0" prefWidth="238.0" promptText="Enter Password" styleClass="textfield" stylesheets="@loginDesign.css">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </PasswordField>
+                  <Button fx:id="signInBtn" layoutX="31.0" layoutY="271.0" mnemonicParsing="false" onAction="#gotoDashBoard" prefHeight="40.0" prefWidth="238.0" styleClass="login-btn" text="Sign In" textAlignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="gotoSignUpBtn" layoutX="29.0" layoutY="321.0" mnemonicParsing="false" onAction="#gotoSignUpForm" prefHeight="40.0" prefWidth="238.0" styleClass="login-btn" text="Sign Up" textAlignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

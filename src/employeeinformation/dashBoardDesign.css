@@ -1,0 +1,95 @@
+
+.top-form{
+    -fx-background-color:#fff;
+    -fx-border-color:#000;
+    -fx-border-width:.4px .4px .2px .4px;
+}
+
+.nav-form{
+    -fx-background-color:linear-gradient(to bottom right, #E8757E, #7591E8);
+}
+
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    -fx-font-family:"Arial";
+    -fx-font-size:16px;
+    -fx-text-fill:#fff;
+    -fx-alignment:center;
+}
+
+.logout{
+    -fx-background-color:#219a6a;
+    -fx-background-radius:10px;
+    -fx-cursor:hand;
+}
+.logout:hover{
+    -fx-background-color:#18a383;
+}
+
+.shadow{
+    -fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.5), 6,0,0,0);
+}
+
+.white-bg{
+    -fx-background-color:#fff;
+    -fx-background-radius:8px;
+}
+
+.card{
+    -fx-background-color:linear-gradient(to right, #FB907D, #E8757E);
+    -fx-background-radius:5px;
+}
+.card:hover{
+    -fx-cursor: hand;
+}
+
+.table-view{
+    -fx-background-color:transparent;
+    -fx-border-color:linear-gradient(to bottom right, #E8757E, #7591E8);
+    -fx-border-radius:8px;
+    -fx-padding:0px;
+}
+.table-view .table-column{
+    -fx-alignment:CENTER;
+}
+.table-view .column-header-background{
+    -fx-background-color:linear-gradient(to bottom right, #FB907D, #E8757E);
+    -fx-background-insets: 0 0 0 0;
+    -f-background-radius:8px 8px 0px 0px;
+}
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size:40px;
+    -fx-border-radius: 8px;
+}
+.table-view .column-header .label{
+    -fx-text-fill:#fff;
+    -fx-font-family:"Arial";
+}
+
+
+.search{
+    -fx-background-color:transparent;
+    -fx-border-color:linear-gradient(to bottom right, #E8757E, #7591E8);
+    -fx-border-radius:5px;
+    -fx-font-size:13px;
+    -fx-font-family:"Arial";
+    -fx-border-width:1px;
+    -fx-padding:0px 0px 0px 28px;
+}
+
+.label-info{
+    -fx-background-color:transparent;
+    -fx-border-color:linear-gradient(to bottom right, #E8757E, #7591E8);
+    -fx-border-radius:4px;
+    -fx-padding:0px 0px 0px 8px;
+}
+.btn{
+    -fx-background-color:linear-gradient(to right, #FB907D, #E8757E);
+    -fx-background-radius:5px;
+    -fx-cursor: hand;
+}
+.btn:hover{
+    -fx-background-color:#FF9393;
+}
